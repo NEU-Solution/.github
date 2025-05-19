@@ -1,1 +1,1 @@
-HÊLLO
+![Architecture Diagram](diagrams.png)
