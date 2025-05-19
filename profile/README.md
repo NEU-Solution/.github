@@ -14,7 +14,9 @@ The pipeline consists of the following components:
 1. **Data Collection**
 
 Web Scraping: Web data is collected using BeautifulSoup to crawl news and other relevant data.
+
 Synthetics Generation: Gemini is employed to generate synthetic data for conversational use cases.
+
 See crawl
 
 2. **Data Curation**
@@ -24,6 +26,7 @@ Data collected from scraping and synthetic generation is aggregated and stored i
 3. **Monitoring and Orchestration**
 
 Apache Airflow orchestrates the entire data collection, processing, and training workflow.
+
 Prometheus and Grafana are used for monitoring metrics and visualizing data.
 
 4. **Model Training**
@@ -36,13 +39,17 @@ See training_cluster
 5. **Model Evaluation**
 
 An evaluation service assesses the model's performance based on specific metrics defined in MLflow.
+
 The results of the evaluation determine whether the new model will be deployed.
+
 See evaluating_cluster
 
 6. **Production Serving**
 
 The trained model is deployed using vLLM, a serving framework optimized for LLM inference.
+
 The API endpoints are exposed for interaction through a Chat SDK implemented using Vercel.
+
 See production_cluster
 
 7. **User Interaction**
@@ -60,3 +67,15 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * ![embedding][OPENAI]
 * ![llm][claude]
 * ![dbms][pg]
+
+<!-- LOGO LINKS -->
+[Streamlit-logo]: https://upload.wikimedia.org/wikipedia/commons/1/1e/Streamlit_logo.png
+[S3-logo]: https://upload.wikimedia.org/wikipedia/commons/0/0e/Amazon_S3_logo.svg
+[RDS-logo]: https://upload.wikimedia.org/wikipedia/commons/2/24/Amazon_RDS_Logo.png
+[EC2-logo]: https://upload.wikimedia.org/wikipedia/commons/f/fd/Amazon_Web_Services_Logo.svg
+[OpenAI-logo]: https://upload.wikimedia.org/wikipedia/commons/4/4b/OpenAI_Logo.svg
+[Claude-logo]: https://upload.wikimedia.org/wikipedia/commons/e/e9/Anthropic_logo.png
+[PostgreSQL-logo]: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg
+
+<!-- URL LINKS -->
+[Streamlit-url]: https://streamlit.io/
