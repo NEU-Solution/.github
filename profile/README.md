@@ -60,13 +60,13 @@ End users interact with the deployed model through the Chat SDK, receiving respo
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Str][Streamlit]][Streamlit-url]
-* ![bucket][S3]
-* ![db][RDS]
-* ![instace][EC2]
-* ![embedding][OPENAI]
-* ![llm][claude]
-* ![dbms][pg]
+* [![Streamlit][Streamlit-logo]][Streamlit-url]
+* ![S3][S3-logo]
+* ![RDS][RDS-logo]
+* ![EC2][EC2-logo]
+* ![OpenAI][OpenAI-logo]
+* ![Claude][Claude-logo]
+* ![PostgreSQL][PostgreSQL-logo]
 
 <!-- LOGO LINKS -->
 [Streamlit-logo]: https://upload.wikimedia.org/wikipedia/commons/1/1e/Streamlit_logo.png
