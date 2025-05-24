@@ -8,7 +8,7 @@ This project implements an end-to-end LLMOps pipeline to manage the lifecycle of
 <!-- ARCHITECTURE -->
 ## ARCHITECTURE
 ![Architecture Diagram](diagrams.png)
-
+![Pipeline](LLM Ops (2).png)
 The pipeline consists of the following components:
 
 1. **Data Collection**
